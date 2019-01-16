@@ -131,7 +131,7 @@
 		</profile>
 
 		<profile>
-			<id>pro</id>
+			<id>prod</id>
 			<build>
 				<finalName>${project.artifactId}-${project.version}-RELEASE</finalName>
 				<plugins>
