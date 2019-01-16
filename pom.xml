@@ -89,14 +89,12 @@
 										<delete
 											file="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/application.dev.properties" />
-										<delete
-											file="${project.build.outputDirectory}/application.prod.properties" />
+											file="${project.build.outputDirectory}/application-prod.properties" />
 										<copy
-											file="src/main/resources/application.test.properties"
+											file="src/main/resources/application-test.properties"
 											tofile="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/application.test.properties" />
+											file="${project.build.outputDirectory}/application-test.properties" />
 									</tasks>
 								</configuration>
 							</execution>
@@ -177,14 +175,12 @@
 										<delete
 											file="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/application.test.properties" />
-										<delete
-											file="${project.build.outputDirectory}/application.dev.properties" />
+											file="${project.build.outputDirectory}/application-test.properties" />
 										<copy
-											file="src/main/resources/application.prod.properties"
+											file="src/main/resources/application-prod.properties"
 											tofile="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/application.prod.properties" />
+											file="${project.build.outputDirectory}/application-prod.properties" />
 									</tasks>
 								</configuration>
 							</execution>
