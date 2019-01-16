@@ -13,6 +13,6 @@ public class UserController {
 
 	@RequestMapping(value="/env",method=RequestMethod.GET)
 	public String getEnv() {
-		return env;
+		return env+"测试环境";
 	}
 }
